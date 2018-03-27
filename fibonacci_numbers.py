@@ -12,3 +12,23 @@
 
 
 # *** your code here ***
+
+# initial try
+# def list_new(number):
+#     list = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+#     return list_new = list[number::]
+# print(list_new(number))
+
+# solution with notes
+
+# define function
+def list_new(number):
+    #set list with our fibonacci values
+    list = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+    #asking function to return an array, 1. start point at 0, 2. stop at defined index number,
+    #3. no defined step
+    return (list[:number])
+# this is how we call the function, and insert the number
+print(list_new(4))
+# this returns an example result of:
+# [0, 1, 1, 2]

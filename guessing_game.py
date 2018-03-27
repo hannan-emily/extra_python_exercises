@@ -36,3 +36,6 @@
 
 
 # *** your code here ***
+
+num_guess = input(5)
+num = int(num)
